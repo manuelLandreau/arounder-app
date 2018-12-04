@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Arrounder",
+    "slug": "Arrounder",
+    "privacy": "public",
+    "sdkVersion": "31.0.0",
+    "androidStatusBarColor": "#1976D2",
+    "android": {
+      "permissions": ["ACCESS_FINE_LOCATION"]
+    },
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/images/logo.png",
+    "splash": {
+      "image": "./src/images/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
